@@ -89,8 +89,6 @@ namespace FEXCore::Core {
     std::unique_ptr<FEXCore::CPU::CPUBackend> CPUBackend;
     std::unique_ptr<FEXCore::LookupCache> LookupCache;
 
-    std::unordered_map<uint64_t, LocalIREntry> LocalIRCache;
-
     std::unique_ptr<FEXCore::Frontend::Decoder> FrontendDecoder;
     std::unique_ptr<FEXCore::IR::PassManager> PassManager;
     FEXCore::HLE::ThreadManagement ThreadManager;
