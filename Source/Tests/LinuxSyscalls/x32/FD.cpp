@@ -15,13 +15,13 @@ $end_info$
 #include <FEXCore/Debug/InternalThreadState.h>
 #include <FEXCore/Utils/LogManager.h>
 #include <FEXCore/Utils/MathUtils.h>
+#include <FEXCore/Utils/SyscallWrappers.h>
 
 #include <algorithm>
 #include <bits/types/struct_iovec.h>
 #include <cstdint>
 #include <fcntl.h>
 #include <poll.h>
-#include <signal.h>
 #include <stddef.h>
 #include <string.h>
 #include <sys/select.h>
@@ -32,10 +32,8 @@ $end_info$
 #include <sys/timerfd.h>
 #include <sys/types.h>
 #include <sys/uio.h>
-#include <syscall.h>
 #include <time.h>
 #include <type_traits>
-#include <unistd.h>
 #include <vector>
 
 ARG_TO_STR(FEX::HLE::x32::compat_ptr<FEX::HLE::x32::sigset_argpack32>, "%lx")

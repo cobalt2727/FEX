@@ -12,9 +12,8 @@ $end_info$
 
 #include <mqueue.h>
 #include <stdint.h>
-#include <syscall.h>
 #include <time.h>
-#include <unistd.h>
+#include <FEXCore/Utils/SyscallWrappers.h>
 
 ARG_TO_STR(FEX::HLE::x32::compat_ptr<FEX::HLE::x32::mq_attr32>, "%lx")
 ARG_TO_STR(FEX::HLE::x32::compat_ptr<FEX::HLE::x32::sigevent32>, "%lx")

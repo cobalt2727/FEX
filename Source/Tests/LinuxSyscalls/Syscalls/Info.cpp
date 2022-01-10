@@ -19,10 +19,10 @@ $end_info$
 #include <syslog.h>
 #include <sys/random.h>
 #include <sys/resource.h>
-#include <sys/syscall.h>
 #include <sys/utsname.h>
 #include <sys/klog.h>
-#include <unistd.h>
+
+#include <FEXCore/Utils/SyscallWrappers.h>
 
 #include <git_version.h>
 

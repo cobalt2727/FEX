@@ -13,7 +13,7 @@ $end_info$
 #include <FEXCore/HLE/SyscallHandler.h>
 
 #include <cstdint>
-#include <unistd.h>
+#include <FEXCore/Utils/SyscallWrappers.h>
 
 namespace FEXCore::CPU {
 [[noreturn]]

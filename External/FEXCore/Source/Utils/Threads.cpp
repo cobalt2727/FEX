@@ -11,10 +11,9 @@
 #include <stdint.h>
 #include <sys/mman.h>
 #include <sys/signal.h>
-#include <sys/syscall.h>
 #include <bits/mman-map-flags-generic.h>
 #include <deque>
-#include <unistd.h>
+#include <FEXCore/Utils/SyscallWrappers.h>
 
 namespace FEXCore::Threads {
   // Stack pool handling

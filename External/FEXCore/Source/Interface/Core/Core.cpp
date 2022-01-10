@@ -41,6 +41,7 @@ $end_info$
 #include <FEXCore/Utils/Event.h>
 #include <FEXCore/Utils/LogManager.h>
 #include <FEXCore/Utils/Threads.h>
+#include <FEXCore/Utils/SyscallWrappers.h>
 
 #include <algorithm>
 #include <array>
@@ -56,7 +57,6 @@ $end_info$
 #include <queue>
 #include <set>
 #include <shared_mutex>
-#include <signal.h>
 #include <stdio.h>
 #include <string.h>
 #include <string>
@@ -64,7 +64,6 @@ $end_info$
 #include <sstream>
 #include <sys/mman.h>
 #include <sys/stat.h>
-#include <sys/syscall.h>
 #include <type_traits>
 #include <unistd.h>
 #include <unordered_map>

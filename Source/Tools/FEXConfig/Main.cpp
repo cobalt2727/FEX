@@ -11,7 +11,7 @@
 #include <fstream>
 #include <sys/inotify.h>
 #include <thread>
-#include <unistd.h>
+#include <FEXCore/Utils/SyscallWrappers.h>
 
 namespace {
   static std::chrono::time_point<std::chrono::high_resolution_clock> GlobalTime{};

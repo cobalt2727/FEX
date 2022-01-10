@@ -14,8 +14,6 @@
 #include <stdio.h>
 #include <string.h>
 #include <string>
-#include <unistd.h>
-#include <signal.h>
 #include <sys/epoll.h>
 #include <sys/prctl.h>
 #include <sys/wait.h>
@@ -26,6 +24,9 @@
 #include <sys/time.h>
 #include <sys/utsname.h>
 #include <thread>
+
+#include <External/FEXCore/Utils/SyscallWrappers.h>
+
 
 namespace {
 std::atomic<bool> ShuttingDown{};

@@ -9,8 +9,7 @@ $end_info$
 
 #include <linux/aio_abi.h>
 #include <stdint.h>
-#include <syscall.h>
-#include <unistd.h>
+#include <FEXCore/Utils/SyscallWrappers.h>
 
 namespace FEXCore::Core {
   struct CpuStateFrame;

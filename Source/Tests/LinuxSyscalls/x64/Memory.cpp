@@ -13,11 +13,11 @@ $end_info$
 #include <sys/mman.h>
 #include <sys/shm.h>
 #include <map>
-#include <unistd.h>
 
 #include <FEXCore/Core/Context.h>
 #include <FEXCore/Config/Config.h>
 #include <FEXCore/Utils/Allocator.h>
+#include <FEXCore/Utils/SyscallWrappers.h>
 #include <fstream>
 #include <filesystem>
 

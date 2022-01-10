@@ -12,7 +12,7 @@
 #include <sys/socket.h>
 #include <sys/types.h>
 #include <sys/un.h>
-#include <unistd.h>
+#include <FEXCore/Utils/SyscallWrappers.h>
 
 namespace FEX::SocketLogging {
   namespace Common {

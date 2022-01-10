@@ -13,9 +13,7 @@ $end_info$
 #include <FEXCore/Core/X86Enums.h>
 #include <FEXCore/Core/SignalDelegator.h>
 
-#include <signal.h>
-#include <sys/syscall.h>
-#include <unistd.h>
+#include <FEXCore/Utils/SyscallWrappers.h>
 
 namespace SignalDelegator {
   struct GuestSigAction;

@@ -16,9 +16,9 @@ $end_info$
 #include <string>
 #include <thread>
 #include <stdio.h>
-#include <unistd.h>
 #include <pthread.h>
-#include <sys/syscall.h>
+
+#include <FEXCore/Utils/SyscallWrappers.h>
 
 #include "common/Guest.h"
 #include "WorkEventData.h"

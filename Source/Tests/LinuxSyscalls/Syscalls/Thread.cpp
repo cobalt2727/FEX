@@ -23,12 +23,11 @@ $end_info$
 #include <sys/personality.h>
 #include <sys/prctl.h>
 #include <sys/resource.h>
-#include <sys/syscall.h>
 #include <sys/types.h>
 #include <sys/time.h>
 #include <sys/wait.h>
-#include <unistd.h>
 #include <sys/fsuid.h>
+#include <FEXCore/Utils/SyscallWrappers.h>
 
 ARG_TO_STR(idtype_t, "%u")
 

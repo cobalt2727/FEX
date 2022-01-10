@@ -9,8 +9,7 @@ $end_info$
 #include "Tests/LinuxSyscalls/x32/Syscalls.h"
 
 #include <linux/aio_abi.h>
-#include <sys/syscall.h>
-#include <unistd.h>
+#include <FEXCore/Utils/SyscallWrappers.h>
 
 namespace FEX::HLE {
   void RegisterIO() {

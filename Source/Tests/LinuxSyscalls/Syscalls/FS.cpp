@@ -13,11 +13,10 @@ $end_info$
 #include <sys/fanotify.h>
 #include <sys/mount.h>
 #include <sys/swap.h>
-#include <sys/syscall.h>
 #include <sys/types.h>
-#include <unistd.h>
 #include <fcntl.h>
 #include <sys/xattr.h>
+#include <FEXCore/Utils/SyscallWrappers.h>
 
 namespace FEX::HLE {
   void RegisterFS(FEX::HLE::SyscallHandler *const Handler) {

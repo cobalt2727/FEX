@@ -12,13 +12,12 @@ $end_info$
 
 #include <bits/types/clockid_t.h>
 #include <stdint.h>
-#include <syscall.h>
 #include <sys/stat.h>
 #include <sys/time.h>
 #include <sys/timex.h>
 #include <time.h>
-#include <unistd.h>
 #include <utime.h>
+#include <FEXCore/Utils/SyscallWrappers.h>
 
 ARG_TO_STR(FEX::HLE::x32::compat_ptr<FEX::HLE::x32::timespec32>, "%lx")
 ARG_TO_STR(FEX::HLE::x32::compat_ptr<FEX::HLE::x32::timex32>, "%lx")

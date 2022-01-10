@@ -18,10 +18,9 @@ $end_info$
 #include <bits/types/stack_t.h>
 #include <sched.h>
 #include <stddef.h>
-#include <syscall.h>
 #include <stdint.h>
-#include <unistd.h>
 #include <vector>
+#include <FEXCore/Utils/SyscallWrappers.h>
 
 namespace FEX::HLE::x64 {
   uint64_t SetThreadArea(FEXCore::Core::CpuStateFrame *Frame, void *tls) {

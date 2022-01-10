@@ -9,7 +9,6 @@
 #include <fstream>
 
 #include <poll.h>
-#include <unistd.h>
 #include <stdint.h>
 #include <stdlib.h>
 #include <string>
@@ -18,6 +17,7 @@
 #include <sys/stat.h>
 #include <sys/socket.h>
 #include <sys/un.h>
+#include <FEXCore/Utils/SyscallWrappers.h>
 
 namespace FEX::RootFS {
 

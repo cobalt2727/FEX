@@ -14,8 +14,7 @@ $end_info$
 #include <sched.h>
 #include <sys/time.h>
 #include <sys/resource.h>
-#include <sys/syscall.h>
-#include <unistd.h>
+#include <FEXCore/Utils/SyscallWrappers.h>
 
 namespace FEX::HLE {
   void RegisterSched() {

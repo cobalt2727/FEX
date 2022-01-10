@@ -13,9 +13,9 @@ $end_info$
 
 #include <bits/types/timer_t.h>
 #include <stdint.h>
-#include <syscall.h>
+
 #include <sys/time.h>
-#include <unistd.h>
+#include <FEXCore/Utils/SyscallWrappers.h>
 
 namespace FEXCore::Core {
   struct CpuStateFrame;

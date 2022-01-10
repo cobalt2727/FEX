@@ -2,7 +2,7 @@
 
 #include <sys/socket.h>
 
-#include <unistd.h>
+#include <FEXCore/Utils/SyscallWrappers.h>
 
 namespace FEXCore::Utils {
 int NetStream::NetBuf::flushBuffer(const char *buffer, size_t size) {

@@ -11,8 +11,7 @@ $end_info$
 #include <stddef.h>
 #include <stdint.h>
 #include <sys/mman.h>
-#include <sys/syscall.h>
-#include <unistd.h>
+#include <FEXCore/Utils/SyscallWrappers.h>
 
 namespace FEX::HLE {
   void RegisterMemory() {

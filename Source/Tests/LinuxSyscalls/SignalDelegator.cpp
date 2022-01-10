@@ -15,6 +15,7 @@ $end_info$
 #include <FEXCore/HLE/Linux/ThreadManagement.h>
 #include <FEXCore/Utils/Allocator.h>
 #include <FEXCore/Utils/LogManager.h>
+#include <FEXCore/Utils/SyscallWrappers.h>
 
 #include <atomic>
 #include <string.h>
@@ -24,11 +25,8 @@ $end_info$
 #include <functional>
 #include <linux/futex.h>
 #include <bits/types/stack_t.h>
-#include <signal.h>
-#include <syscall.h>
 #include <sys/mman.h>
 #include <sys/signalfd.h>
-#include <unistd.h>
 #include <utility>
 
 namespace FEX::HLE {

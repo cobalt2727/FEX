@@ -11,12 +11,11 @@ $end_info$
 #include <stddef.h>
 #include <stdint.h>
 #include <time.h>
-#include <sys/syscall.h>
 #include <sys/time.h>
 #include <sys/times.h>
 #include <sys/timex.h>
-#include <unistd.h>
 #include <utime.h>
+#include <FEXCore/Utils/SyscallWrappers.h>
 
 namespace FEX::HLE::x64 {
   void RegisterTime() {

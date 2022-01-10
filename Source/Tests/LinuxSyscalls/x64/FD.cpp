@@ -21,9 +21,8 @@ $end_info$
 #include <sys/uio.h>
 #include <sys/sendfile.h>
 #include <sys/timerfd.h>
-#include <syscall.h>
 #include <time.h>
-#include <unistd.h>
+#include <FEXCore/Utils/SyscallWrappers.h>
 
 namespace FEX::HLE::x64 {
   void RegisterFD() {

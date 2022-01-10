@@ -17,7 +17,7 @@ $end_info$
 #include <memory>
 #include <stddef.h>
 #include <string>
-#include <unistd.h>
+#include <FEXCore/Utils/SyscallWrappers.h>
 #include <vector>
 
 int main(int argc, char **argv, char **const envp) {

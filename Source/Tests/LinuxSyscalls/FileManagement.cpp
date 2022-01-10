@@ -11,6 +11,7 @@ $end_info$
 #include "Tests/LinuxSyscalls/x64/Syscalls.h"
 
 #include <FEXCore/Utils/LogManager.h>
+#include <FEXCore/Utils/SyscallWrappers.h>
 
 #include <algorithm>
 #include <bits/statx-generic.h>
@@ -22,9 +23,7 @@ $end_info$
 #include <stdio.h>
 #include <sys/stat.h>
 #include <sys/statfs.h>
-#include <syscall.h>
 #include <system_error>
-#include <unistd.h>
 #include <utility>
 #include <vector>
 

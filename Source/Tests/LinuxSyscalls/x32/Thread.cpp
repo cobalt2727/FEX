@@ -27,8 +27,8 @@ $end_info$
 #include <sys/wait.h>
 #include <syscall.h>
 #include <time.h>
-#include <unistd.h>
 #include <vector>
+#include <FEXCore/Utils/SyscallWrappers.h>
 
 ARG_TO_STR(FEX::HLE::x32::compat_ptr<FEX::HLE::x32::stack_t32>, "%x")
 

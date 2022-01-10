@@ -15,6 +15,7 @@
 #undef _CUSTOM_META_OFFSET
 
 #include <FEXCore/Utils/LogManager.h>
+#include <FEXCore/Utils/SyscallWrappers.h>
 
 #include <cstdint>
 #include <functional>
@@ -23,8 +24,7 @@ extern "C" {
 #include <drm/msm_drm.h>
 }
 #include <sys/ioctl.h>
-#include <sys/syscall.h>
-#include <unistd.h>
+
 
 namespace FEX::HLE::x32 {
   static void UnhandledIoctl(const char *Type, int fd, uint32_t cmd, uint32_t args) {

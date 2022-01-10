@@ -10,8 +10,8 @@ $end_info$
 #include <mqueue.h>
 #include <stddef.h>
 #include <stdint.h>
-#include <syscall.h>
-#include <unistd.h>
+
+#include <FEXCore/Utils/SyscallWrappers.h>
 
 namespace FEXCore::Core {
   struct CpuStateFrame;

@@ -1,8 +1,7 @@
 #include <FEXCore/Core/SignalDelegator.h>
 #include <FEXCore/Utils/LogManager.h>
 
-#include <unistd.h>
-#include <signal.h>
+#include <FEXCore/Utils/SyscallWrappers.h>
 
 namespace FEXCore {
   struct ThreadState {

@@ -25,8 +25,7 @@
 #include "code-buffer-vixl.h"
 #include "platform-vixl.h"
 
-#include <sys/syscall.h>
-#include <unistd.h>
+#include <FEXCore/Utils/SyscallWrappers.h>
 
 namespace FEXCore::CPU {
 

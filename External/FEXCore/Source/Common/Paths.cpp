@@ -6,7 +6,8 @@
 #include <memory>
 #include <pwd.h>
 #include <system_error>
-#include <unistd.h>
+
+#include <FEXCore/Utils/SyscallWrappers.h>
 
 namespace FEXCore::Paths {
   std::unique_ptr<std::string> CachePath;

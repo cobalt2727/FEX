@@ -23,6 +23,7 @@ $end_info$
 #include <FEXCore/Utils/LogManager.h>
 #include <FEXCore/Utils/Telemetry.h>
 #include <FEXCore/Utils/Threads.h>
+#include <FEXCore/Utils/SyscallWrappers.h>
 
 #include <atomic>
 #include <cerrno>
@@ -44,7 +45,6 @@ $end_info$
 #include <sys/select.h>
 #include <system_error>
 #include <thread>
-#include <unistd.h>
 #include <utility>
 #include <vector>
 

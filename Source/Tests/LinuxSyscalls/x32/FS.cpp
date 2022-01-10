@@ -11,7 +11,7 @@ $end_info$
 #include <stddef.h>
 #include <stdint.h>
 #include <sys/mount.h>
-#include <unistd.h>
+#include <FEXCore/Utils/SyscallWrappers.h>
 
 namespace FEX::HLE::x32 {
   void RegisterFS() {

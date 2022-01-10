@@ -9,9 +9,7 @@ $end_info$
 #include <malloc.h>
 #include <thread>
 #include <stdio.h>
-#include <unistd.h>
-#include <syscall.h>
-#include <sys/syscall.h>
+#include <FEXCore/Utils/SyscallWrappers.h>
 
 #include <xcb/xcb.h>
 #include <xcb/xcbext.h>

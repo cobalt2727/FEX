@@ -13,6 +13,7 @@ $end_info$
 #include <FEXCore/Core/Context.h>
 #include <FEXCore/Core/CPUID.h>
 #include <FEXCore/Utils/LogManager.h>
+#include <FEXCore/Utils/SyscallWrappers.h>
 
 #include <git_version.h>
 
@@ -22,7 +23,6 @@ $end_info$
 #include <ostream>
 #include <stdio.h>
 #include <system_error>
-#include <unistd.h>
 #include <utility>
 #include <vector>
 

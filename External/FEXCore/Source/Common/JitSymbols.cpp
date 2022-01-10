@@ -1,7 +1,7 @@
 #include "Common/JitSymbols.h"
 
 #include <string>
-#include <unistd.h>
+#include <FEXCore/Utils/SyscallWrappers.h>
 
 #include <fmt/format.h>
 

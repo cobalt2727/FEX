@@ -6,9 +6,9 @@
 #include <bitset>
 #include <map>
 #include <linux/mman.h>
-#include <unistd.h>
 #include <sys/mman.h>
 #include <sys/shm.h>
+#include <FEXCore/Utils/SyscallWrappers.h>
 
 #ifndef MREMAP_DONTUNMAP
 #define MREMAP_DONTUNMAP 4

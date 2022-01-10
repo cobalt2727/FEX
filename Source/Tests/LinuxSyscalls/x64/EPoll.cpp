@@ -14,8 +14,7 @@ $end_info$
 #include <cstdint>
 #include <stddef.h>
 #include <sys/epoll.h>
-#include <syscall.h>
-#include <unistd.h>
+#include <FEXCore/Utils/SyscallWrappers.h>
 #include <vector>
 
 struct timespec;

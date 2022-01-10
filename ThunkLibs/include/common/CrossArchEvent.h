@@ -1,11 +1,11 @@
 #pragma once
 
 #include <linux/futex.h>
-#include <sys/syscall.h>
 #include <atomic>
 #include <condition_variable>
 #include <mutex>
-#include <unistd.h>
+
+#include <FEXCore/Utils/SyscallWrappers.h>
 
 struct CrossArchEvent final {
   std::atomic<uint32_t> Futex;

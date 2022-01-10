@@ -11,7 +11,7 @@ $end_info$
 #include <stdint.h>
 #include <sched.h>
 #include <time.h>
-#include <unistd.h>
+#include <FEXCore/Utils/SyscallWrappers.h>
 
 namespace FEXCore::Core {
   struct CpuStateFrame;

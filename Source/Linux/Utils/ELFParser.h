@@ -4,7 +4,7 @@
 #include <elf.h>
 #include <fstream>
 #include <fcntl.h>
-#include <unistd.h>
+#include <FEXCore/Utils/SyscallWrappers.h>
 
 #include "Linux/Utils/ELFContainer.h"
 

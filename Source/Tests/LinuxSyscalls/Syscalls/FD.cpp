@@ -19,9 +19,8 @@ $end_info$
 #include <stddef.h>
 #include <sys/types.h>
 #include <sys/stat.h>
-#include <unistd.h>
 #include <sys/eventfd.h>
-#include <sys/syscall.h>
+#include <FEXCore/Utils/SyscallWrappers.h>
 
 namespace FEX::HLE {
   void RegisterFD(FEX::HLE::SyscallHandler *const Handler) {

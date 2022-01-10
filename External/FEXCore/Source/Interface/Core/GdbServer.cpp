@@ -27,6 +27,7 @@ $end_info$
 #include <FEXCore/Utils/NetStream.h>
 #include <FEXCore/Utils/LogManager.h>
 #include <FEXCore/Utils/Threads.h>
+#include <FEXCore/Utils/SyscallWrappers.h>
 
 #include <atomic>
 #include <cstring>
@@ -35,11 +36,9 @@ $end_info$
 #include <fstream>
 #include <fmt/format.h>
 #include <netdb.h>
-#include <signal.h>
 #include <stddef.h>
 #include <string_view>
 #include <sys/socket.h>
-#include <unistd.h>
 #include <utility>
 #include <vector>
 

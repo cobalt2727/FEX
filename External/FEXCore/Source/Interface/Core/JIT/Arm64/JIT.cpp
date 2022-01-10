@@ -25,11 +25,11 @@ $end_info$
 #include <FEXCore/Core/UContext.h>
 #include <FEXCore/Utils/Allocator.h>
 #include <FEXCore/Utils/CompilerDefs.h>
+#include <FEXCore/Utils/SyscallWrappers.h>
 #include "Interface/Core/Interpreter/InterpreterOps.h"
 
 #include <sys/mman.h>
 #include <stdio.h>
-#include <unistd.h>
 #include <string.h>
 
 namespace FEXCore::CPU {

@@ -26,6 +26,7 @@ $end_info$
 #include <FEXCore/Utils/LogManager.h>
 #include <FEXCore/Utils/MathUtils.h>
 #include <FEXCore/Utils/Threads.h>
+#include <FEXCore/Utils/SyscallWrappers.h>
 
 #include <algorithm>
 #include <alloca.h>
@@ -42,7 +43,6 @@ $end_info$
 #include <syscall.h>
 #include <sys/mman.h>
 #include <sys/utsname.h>
-#include <unistd.h>
 
 namespace FEXCore::Context {
   struct Context;
